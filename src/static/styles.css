@@ -142,3 +142,42 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 12px;
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Individual participant "chips" */
+.participant-item {
+  background: linear-gradient(180deg, #eef2ff 0%, #e6eeff 100%);
+  color: #1a237e;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 1px solid #d6d9ff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+
+/* Placeholder when no participants are present */
+.no-participants {
+  color: #666;
+  font-style: italic;
+  padding: 6px 0;
+}
